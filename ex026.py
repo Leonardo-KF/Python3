@@ -1,0 +1,7 @@
+n1 = str(input('Digite uma frase: ')).strip()
+n2 = n1.count('a')
+n3 = n1.upper().find('A')
+n4 = n1.upper().rfind('A')
+print(f'Nessa frase tem {n2} vezes a letra "a"')
+print(f'A primeira letra "a" aparece na posição {n3 + 1}')
+print(f'A ultima letra "a" aparece na posição {n4 + 1}')

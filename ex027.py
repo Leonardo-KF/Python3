@@ -1,0 +1,6 @@
+n1 = str(input('Digite seu nome completo: ')).strip().title()
+#n2 = n1.find(' ')
+#n3 = n1.rfind(' ')
+#print(f'Bem vindo {n1[:n2]}{n1[n3:]}')
+n2 = n1.split()
+print(f'Olá {n2[0]} {n2[len(n2) - 1]}')
